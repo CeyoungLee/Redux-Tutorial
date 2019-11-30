@@ -1,6 +1,6 @@
 //action creator: 액션을 만드는 함수
 
-export const action = {
+export const updateUser = (name) => ({
   type: 'updateUser',
-  payload: 'Tom'
-};
+  payload: name
+});
